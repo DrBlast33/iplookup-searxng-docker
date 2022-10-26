@@ -12,16 +12,16 @@ redis:
   url: redis://redis:6379/0
 general:
   debug: false
-  instance_name:  "I Can Find It Online"
+  instance_name:  "AP Lookup"
   privacypolicy_url: false
   donation_url: /info/en/donate
-  contact_url: https://www.robertattfield.com
+  contact_url: https://www.advancedphase.com
   enable_metrics: true
 brand:
-  source_code: https://github.com/rattfieldnz/searxng-docker
-  issue_url: https://github.com/rattfieldnz/searxng-docker/issues
+  source_code: https://github.com/drblast33/iplookup-searxng-docker
+  issue_url: https://github.com/drblast33/iplookup-searxng-docker/issues
   docs_url: https://docs.searxng.org
   public_instances: https://searx.space
-  wiki_url: https://github.com/rattfieldnz/searxng-docker/wiki
+  wiki_url: https://github.com/drblast33/iplookup-searxng-docker/wiki
 search:
   autocomplete: "duckduckgo"
